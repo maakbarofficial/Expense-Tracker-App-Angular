@@ -6,6 +6,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { IncomeComponent } from './income/income.component';
 import { TodoComponent } from './todo/todo.component';
 import { ExpenseComponent } from './expense/expense.component';
+import { HistoryComponent } from './history/history.component';
 
 const routes: Routes = [
   {
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path: 'todo',
     component: TodoComponent
+  },
+  {
+    path: 'history',
+    component: HistoryComponent
   }
 ];
 
