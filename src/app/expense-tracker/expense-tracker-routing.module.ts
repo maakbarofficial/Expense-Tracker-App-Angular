@@ -7,6 +7,7 @@ import { IncomeComponent } from './income/income.component';
 import { TodoComponent } from './todo/todo.component';
 import { ExpenseComponent } from './expense/expense.component';
 import { HistoryComponent } from './history/history.component';
+import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes = [
   {
@@ -36,6 +37,10 @@ const routes: Routes = [
   {
     path: 'history',
     component: HistoryComponent
+  },
+  {
+    path: 'profile',
+    component: ProfileComponent
   }
 ];
 
